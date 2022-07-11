@@ -6,11 +6,11 @@ public class Exercico02 {
 	
 	public static void main(String[] args) {
 	
-	int pares = 1, impares = 0, numero = 0;
+	int pares = 0, impares = 0, numero = 0;
 	
 	Scanner entrada = new Scanner(System.in);
 	
-	for (int i = 0; i<=10 ; i++) {
+	for (int i = 1; i<=10 ; i++) {
 		System.out.println("Digite um númenro: ");
 		numero = entrada.nextInt();
 		

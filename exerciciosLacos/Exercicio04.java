@@ -1,15 +1,15 @@
-package br.com.generation.exercicios;
+package br.com.generation.exerciciosLacos;
 
 import java.util.Scanner;
 
 public class Exercicio04 {
 	public static void main(String[] args) {
 		
-		int entrevistados = 0, idade =0, calma = 0, homensA = 0, mulheresN = 0, outrosC = 0 , nervosas40 = 0, calmas18 = 0;
+		int entrevistados = 1, idade =0, calma = 0, homensA = 0, mulheresN = 0, outrosC = 0 , nervosas40 = 0, calmas18 = 0;
 		int comportamento, sexo;
 		Scanner entrada = new Scanner(System.in);
 		
-		while ( entrevistados <= 5) {
+		while ( entrevistados <= 150) {
 		
 			entrevistados++;
 			System.out.println("Qual sua idade? ");

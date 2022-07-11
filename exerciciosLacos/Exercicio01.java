@@ -1,4 +1,4 @@
-package br.com.generation.exercicios;
+package br.com.generation.exerciciosLacos;
 
 public class Exercicio01 {
 	public static void main(String[] args) {

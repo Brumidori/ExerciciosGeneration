@@ -1,4 +1,4 @@
-package br.com.generation.exercicios;
+package br.com.generation.exerciciosLacos;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ public class Exercico02 {
 	
 	public static void main(String[] args) {
 	
-	int pares = 0, impares = 0, numero = 0;
+	int pares = 1, impares = 0, numero = 0;
 	
 	Scanner entrada = new Scanner(System.in);
 	

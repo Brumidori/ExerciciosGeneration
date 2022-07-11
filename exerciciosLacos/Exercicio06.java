@@ -1,4 +1,4 @@
-package br.com.generation.exercicios;
+package br.com.generation.exerciciosLacos;
 
 import java.util.Scanner;
 

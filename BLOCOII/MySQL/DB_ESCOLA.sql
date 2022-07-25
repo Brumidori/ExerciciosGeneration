@@ -1,0 +1,33 @@
+create database DB_ESCOLA;
+
+USE DB_ESCOLA;
+
+create table IF NOT EXISTS TB_ALUNOS(
+ID BIGINT AUTO_INCREMENT,
+NOME VARCHAR(255),
+SEXO VARCHAR (255),
+TURMA INT,
+IDADE INT, 
+NOTA INT,
+PRIMARY KEY(ID)
+);
+
+INSERT INTO TB_ALUNOS (NOME, SEXO, TURMA, IDADE, NOTA) values ("Bruna", "Feminino", 56, 27, 10);
+INSERT INTO TB_ALUNOS (NOME, SEXO, TURMA, IDADE, NOTA) values ("Vanessa", "Feminino", 9, 32, 9);
+INSERT INTO TB_ALUNOS (NOME, SEXO, TURMA, IDADE, NOTA) values ("Clara", "Feminino", 2, 32, 10);
+INSERT INTO TB_ALUNOS (NOME, SEXO, TURMA, IDADE, NOTA) values ("Antonia", "Feminino", 30, 26, 7);
+INSERT INTO TB_ALUNOS (NOME, SEXO, TURMA, IDADE, NOTA) values ("Joao", "Masculino", 40, 30, 6);
+INSERT INTO TB_ALUNOS (NOME, SEXO, TURMA, IDADE, NOTA) values ("Cleiton", "Masculino", 23, 21, 5);
+INSERT INTO TB_ALUNOS (NOME, SEXO, TURMA, IDADE, NOTA) values ("Fabrizio", "Masculino", 21, 35, 7);
+INSERT INTO TB_ALUNOS (NOME, SEXO, TURMA, IDADE, NOTA) values ("Marcos", "Masculino", 44, 33, 4);
+INSERT INTO TB_ALUNOS (NOME, SEXO, TURMA, IDADE, NOTA) values ("Fulano", "Masculino", 37, 18, 8);
+
+
+select * from tb_alunos;
+
+SELECT * FROM TB_ALUNOS WHERE NOTA > 7;
+SELECT * FROM TB_ALUNOS WHERE NOTA < 7;
+
+UPDATE TB_ALUNOS
+SET NOTA = "3"  
+WHERE id = 9;
